@@ -1,0 +1,26 @@
+h1{
+    color: orange;
+    background-color: aquamarine;
+    font-size: 50px;
+    font-family: Georgia;
+    text-align: center;
+}
+
+p.error{
+    color : slateblue;
+    font-size: 20px;
+
+}
+
+ol{
+    border: 3px solid cornflowerblue;
+}
+
+div{
+    border: 2px dashed crimson;
+}
+a[href]{
+    background-color: bisque;
+    text-transform: uppercase;
+    font-style: oblique;
+}
