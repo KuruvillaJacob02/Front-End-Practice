@@ -1,29 +1,78 @@
-div.welcome{
-    background-color: #1e5ddb;
-}
+
 body{
     background-color: #aebfd4;
 }
-h1{
-    position: relative;
-    left:700px;
-}
 header{
     background-color: #2e393d;
-    color: white;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    top:0;
+    left:0;
 }
-
+header h1{
+    color:white;
+    border: 5px solid white;
+    display : inline-block;
+    padding: 5px 20px;
+    font-size:30px;
+    border-radius: 10px;
+}
 .banner{
-    position: relative;     
+    top:70px;
+    position: relative;    
+    left:0; 
 }
 
 .banner img{
     max-width: 100%;
 }
  .banner .welcome{
+    background-color: #7296c2;
+    padding: 40px;
     position: absolute;
-    left:0px;
-    top:250px;
-    font-size: xx-large;
+    top:30%;
     color: white;
+ }
+
+.banner h2{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav{
+    position: relative;
+    top:50px;
+    background-color: #1B1B1B;
+    padding: 20px;
+}
+ .nav ul{
+    white-space: nowrap;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+.nav li{
+    display: inline-block;
+    font-size:20px;
+    width: 33%
+}
+.nav a{
+    color:white;
+    text-decoration: none;
+}
+ nav li a.buy{
+    color: #e76012;
+ }
+
+main{
+    position: relative;
+    top:50px;
+    left:0;
+}
+ main .class{
+    max-width: 100%;
  }
